@@ -1,0 +1,158 @@
+{
+  "name": "Angel Garcia",
+  "education":[
+    {
+      "year":2023,
+      "description":"Desarrollo de Aplicaciones Web con Javascript ( Yirsis Serrano )",
+      "place":"Udemy"
+    },
+    {
+      "year":2024,
+      "description":"Curso desde cero a avanzado [Symfony, React, nodeJS, Express JS, PostgreSQL",
+      "place":""
+    },
+    {
+      "year":2024,
+      "description":"CURSO CSS3 [Aprende y DOMINA CSS3 desde cero a avanzado](Jordan Alexander)",
+      "place":"Udemy"
+    },
+    {
+      "year":2023,
+      "description":"Ciclo superior: Desarrollo de aplicaciones web",
+      "place":"Medac"
+    },
+    {
+      "year":2018,
+      "description":"Iluminación, captación y tratamiento de imagenes",
+      "place":"Politécnico Jesús Marín"
+    }
+  ],
+  "projects":[
+    {
+      "name":"Memorion",
+      "description":"Memorion is a memory game where pairs of numbers are generated on cards, which are initially face-down. Players click on the cards to reveal them, with the objective of matching pairs.",
+      "url":"https://github.com/Angelilloglez98/projects/tree/main/Memorion",
+      "img":"assets/projects/memorion.PNG",
+      "tech":["Javascript", "CSS", "HTML"]
+    },
+    {
+      "name":"Colors",
+      "description":"Colors is a tool that generates a random color and displays its RGB value. Users can choose between primary, secondary, tertiary colors, or completely random colors.",
+      "url":"https://github.com/Angelilloglez98/projects/tree/main/colors",
+      "img":"assets/projects/colors.PNG",
+      "tech":["Javascript", "CSS", "HTML"]
+    },
+    {
+      "name":"CSS Dev Challenge",
+      "description":"This project is a CSS challenge inspired by the Dev Challenge website. It involves implementing a specific design using CSS, testing and refining CSS skills while adhering to design specifications provided by the challenge.",
+      "url":"",
+      "img":"assets/projects/devChallenge.PNG",
+      "tech":["CSS","HTML"]
+    },
+    {
+      "name":"OuterPharma",
+      "description":"OuterPharma is a pharmacy management application developed as a final course project. This app facilitates the management of a pharmacy by providing features such as inventory management, user authentication, QR code and barcode scanning using the device's camera, and statistical analysis tools for tracking performance metrics.",
+      "url":"https://github.com/Angelilloglez98/OUTERPHARMA",
+      "img":"assets/projects/outerpharma.PNG",
+      "tech":["JavaScript","CSS","HTML", "PHP", "Boostrap"]
+    },
+    {
+      "name":"Draw It",
+      "description":"Draw It is a simple drawing application that serves as a basic canvas for learning fundamental concepts of HTML, Canvas and JavaScript interaction. Users can draw, change colors, and adjust the thickness of the drawing tool.",
+      "url":"https://github.com/Angelilloglez98/projects/tree/main/Pizarra",
+      "img":"assets/projects/Pizarra.PNG",
+      "tech":["Javascript", "CSS", "HTML"]
+    },
+    {
+      "name":"Pokedex",
+      "description":"Pokedex Explorer is a classic application designed for learning how to consume APIs using JavaScript. It provides a user-friendly interface to explore and discover information about various Pokemon species. Through API integration, users can access details such as Pokemon stats, abilities, types, and more, enhancing their understanding of API consumption techniques in JavaScript.",
+      "url":"https://github.com/Angelilloglez98/projects/tree/main/Pokedex",
+      "img":"assets/projects/pokedex.PNG",
+      "tech":["JavaScript", "CSS", "HTML"]
+    },
+    {
+      "name":"ShortUrl",
+      "description":"ShortUrl is an application designed to shorten URLs and provide a QR code for easy sharing. Users input a long URL, and the application generates a shortened version along with a corresponding QR code. This tool simplifies the sharing of lengthy URLs by providing compact alternatives and facilitates quick access through QR codes.",
+      "url":"https://github.com/Angelilloglez98/ShortUrl",
+      "img":"assets/projects/ShortURL.PNG",
+      "tech":["Twig", "CSS", "JavaScript", "Symfony", "Docker", "postgreSQL"]
+    },
+    {
+      "name":"Snake",
+      "description":"SimpleSnake is a classic snake game implemented in JavaScript, aimed at improving programming logic skills. Players control a snake that moves around the game board, eating food to grow longer while avoiding collisions with walls and its own body. This project serves as a practical exercise to enhance problem-solving abilities and understanding of game mechanics in JavaScript.",
+      "url":"https://github.com/Angelilloglez98/projects/tree/main/Snake",
+      "img":"assets/projects/snake.PNG",
+      "tech":["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name":"Tic-Tac-Toe",
+      "description":"Tic Tac Toe is a classic game implemented to enhance programming logic skills. Players take turns marking spaces in a three x three grid, aiming to achieve a row, column, or diagonal of their symbol (either X or O). This project provides an opportunity to practice logic, decision-making, and algorithmic thinking in programming.",
+      "url":"https://github.com/Angelilloglez98/projects/tree/main/Tic%20tac%20Toe",
+      "img":"assets/projects/tictactoe.PNG",
+      "tech":["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name":"WeatherApp",
+      "description":"WeatherApp is a React application that utilizes an open API to provide weather information. Users can input their location or allow the app to access their current location, and it fetches and displays relevant weather data, such as temperature, humidity, wind speed, and conditions. This project allows developers to practice building React components, handling API requests, and displaying dynamic data in a user-friendly interface.",
+      "url":"https://tiempoapplication.netlify.app",
+      "img":"assets/projects/tiempoapp.PNG",
+      "tech":["HTML", "React", "Javascript","React","CSS"]
+    }
+
+  ],
+  "skills":[
+    {
+      "urlImage":"assets/icons/html-icon.png",
+      "nameTech":"HTML",
+      "level":100
+    },
+    {
+      "urlImage":"assets/icons/css-icon.png",
+      "nameTech":"CSS",
+      "level":100
+    },
+    {
+      "urlImage":"assets/icons/tailwind-icon.png",
+      "nameTech":"Tailwind",
+      "level":100
+    },
+    {
+      "urlImage":"assets/icons/js-icon.png",
+      "nameTech":"Javascript",
+      "level":100
+    },
+    {
+      "urlImage":"assets/icons/react-icon.png",
+      "nameTech":"React",
+      "level":80
+    },
+    {
+      "urlImage":"assets/icons/php-icon.png",
+      "nameTech":"PHP",
+      "level":70
+    },
+    {
+      "urlImage":"assets/icons/symfony-icon.png",
+      "nameTech":"Symfony",
+      "level":70
+    },
+    {
+      "urlImage":"assets/icons/node-icon.png",
+      "nameTech":"Node",
+      "level":60
+    },
+    {
+      "urlImage":"assets/icons/sql-icon.png",
+      "nameTech":"Oracle SQL",
+      "level":80
+    },
+    {
+      "urlImage":"assets/icons/java-icon.png",
+      "nameTech":"Java",
+      "level":80
+    }
+    
+  ],
+  "urls":["/","about","projects", "education" , "skills" ]
+}
+  

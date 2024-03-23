@@ -1,0 +1,55 @@
+@tailwind base;
+
+.root{
+    --customOrange:'#E9BA46';
+    --customRed:'#DD5845';
+    --customYellow:'#F8E2B9';
+    --customWhite:'#f2e6ce';
+}
+
+@font-face {
+    font-family:'bulletokilla' ;
+    src: url('../fonts/bulletokilla.ttf') format('truetype');
+}
+
+.font-bulletokilla{
+    font-family: 'bulletokilla', sans-serif;
+}
+
+@layer base {
+    .font-outline-title {
+        text-shadow: 4px 4px 0px rgba(221, 88, 69, 1),
+        8px 8px 0px #3D445E
+    } 
+
+    .font-outline-p {
+        text-shadow: 1px 1px 0px #F5F3E7,
+        3px 3px 0px #ee9b4b
+    } 
+
+    .box-outline{
+        box-shadow: 2px 2px 0px 2px #ee9b4b , 4px 4px 0px 4px #DD5845;
+    }
+
+    .tricolor{
+        background: linear-gradient(0deg, rgba(221,88,69,1) 0%, rgba(221,88,69,1) 33%, #ee9b4b 33%, #ee9b4b 66%, #E9BA46 66%, #E9BA46 100%);
+    }
+
+    .text-shadow{
+        text-shadow: 2px 1px 2px #3D445E;
+    }
+
+    .custom-cursor-auto{
+        cursor: url("/assets/arrow.png"), auto;
+    }
+
+    .hiddenScrollBar::-webkit-scrollbar {
+        width: 5px;
+      }
+    
+    .hiddenScrollBar::-webkit-scrollbar-thumb {
+        border-radius: 20px;       
+        border: 3px solid #E9BA46;  
+    }
+}
+
