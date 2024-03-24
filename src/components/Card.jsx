@@ -1,11 +1,9 @@
-
+import { Link } from 'react-router-dom';
 function Card({text,height}){
 
-
-
     return (
-        <a href={"/"+text}>
-            <div className='bg-customWhite rounded w-442 h-max '>
+        <Link to={"/"+text} className="block">
+            <div className='bg-customWhite rounded w-442 h-max'>
                 <div className="flex">
                     <div className="flex flex-col justify-center content-center gap-1">
                         <label className="bg-customOrange-uno h-1 w-4 rounded-r-md flex justify-center content-center"></label>
@@ -22,7 +20,7 @@ function Card({text,height}){
                     </div>
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }
 export default Card
