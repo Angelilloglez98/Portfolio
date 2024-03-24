@@ -1,5 +1,5 @@
 import Home from "./Home"
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 import About from "./About"
 import Education from "./education"

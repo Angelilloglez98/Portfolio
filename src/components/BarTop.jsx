@@ -19,7 +19,7 @@ function BarTop() {
             <div>
               <Searcher/>
             </div>
-            <button onClick={() => { setHidden(!hidden) }} className="xl:hidden rounded-full font-bulletokilla text-customOrange-dos text-2xl">{hidden?"X":"O"}</button>
+            <button onClick={() => { setHidden(!hidden) }} className="xl:hidden rounded-full font-bulletokilla text-customOrange-dos text-2xl">{hidden?<img src="/assets/icons/menu-icon.png" alt="" className="w-10"/>:"X"}</button>
           </div>
 
           <div className={`flex flex-col xl:flex-row gap-4 ${hidden ? 'hidden xl:flex' : 'flex xl:flex'}`}>

@@ -12,7 +12,7 @@ function Searcher() {
 
     const changeUrl=(e)=>{
         e.preventDefault();
-        let valueForm = e.target.searcher.value
+        let valueForm = e.target.searcher.value.toLowerCase()
         const regex= /^\/?[a-z-Z]*$/
 
         if (location.pathname=="/") {

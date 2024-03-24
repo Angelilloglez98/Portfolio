@@ -18,7 +18,7 @@ function Home() {
               <Searcher></Searcher>
                 
             </div>
-            <p className="text-center font-bulletokilla rounded-md text-customWhite  text-lg md:text-3xl bg-customOrange-uno px-4 py-1 box-outline ">Type these URLs in the search engine</p>
+            <p className="text-center font-bulletokilla rounded-md text-customWhite  text-lg md:text-3xl bg-customOrange-uno px-4 py-1 box-outline ">Type these URLs in the search engine or click on the URLs.</p>
             <div className="flex flex-wrap justify-center gap-4">
                 
               {
