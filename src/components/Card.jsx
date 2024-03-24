@@ -4,7 +4,7 @@ function Card({text,height}){
 
 
     return (
-        <a href={text}>
+        <a href={"/"+text}>
             <div className='bg-customWhite rounded w-442 h-max '>
                 <div className="flex">
                     <div className="flex flex-col justify-center content-center gap-1">
